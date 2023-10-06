@@ -14,5 +14,5 @@ class Thing(Model):
     quantity = models.PositiveSmallIntegerField(blank=False, validators=[
             MaxValueValidator(100),
             MinValueValidator(0)
-        ])
+    ])
     
